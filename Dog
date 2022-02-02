@@ -1,0 +1,14 @@
+public class Dog extends Animal{
+    public Dog(String name) {
+        super(name);
+
+    }
+
+    public void dogRun(int i){
+        System.out.println("Собака: " + name + " пробежала " + i + " метра");
+    }
+
+    public void dogSwin (int i){
+        System.out.println("Собака: " + name + " проплыла " + i + " метров");
+    }
+}

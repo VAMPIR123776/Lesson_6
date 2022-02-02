@@ -1,0 +1,15 @@
+public class Cat extends Animal{
+
+    public Cat(String name) {
+        super(name);
+
+    }
+
+    public void catRun(int i) {
+        System.out.println("Кот: " + name + " пробежал " + i + " метров");
+    }
+
+    public void catSwin() {
+        System.out.println("Кот: " + name + " с призрением посмотрел на вас и, подняв хвост, развернулся и ушел");
+    }
+}
